@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>BlueSpruce Realty - Career</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: BlueSpruce - v4.9.1
+  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Property Search Section ======= -->
+    <div class="click-closed"></div>
+    <!--/ Form Search Star /-->
+    <div class="box-collapse">
+      <div class="title-box-d">
+        <h3 class="title-d">Search Property</h3>
+      </div>
+      <span class="close-box-collapse right-boxed bi bi-x"></span>
+      <div class="box-collapse-wrap form">
+        <form class="form-a">
+          <div class="row">
+            <div class="col-md-12 mb-2">
+              <div class="form-group">
+                <label class="pb-2" for="Type">Keyword</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg form-control-a"
+                  placeholder="Keyword"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="Type">Type</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="Type"
+                >
+                  <option>All Type</option>
+                  <option>For Rent</option>
+                  <option>For Sale</option>
+                  <option>Open House</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="city">City</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="city"
+                >
+                  <option>All City</option>
+                  <option>Alabama</option>
+                  <option>Arizona</option>
+                  <option>California</option>
+                  <option>Colorado</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bedrooms">Bedrooms</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="bedrooms"
+                >
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="garages">Garages</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="garages"
+                >
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bathrooms">Bathrooms</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="bathrooms"
+                >
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="price">Min Price</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="price"
+                >
+                  <option>Unlimite</option>
+                  <option>$50,000</option>
+                  <option>$100,000</option>
+                  <option>$150,000</option>
+                  <option>$200,000</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-b">Search Property</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Property Search Section -->>
+
+    <!-- ======= Header/Navbar ======= -->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      <div class="container">
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a class="navbar-brand text-brand" href="index.html"
+          >Blue<span class="color-b">Spruce</span></a
+        >
+
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="career.html">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="property-grid.html">Property</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+        >
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- End Header/Navbar -->
+
+    <main id="main">
+        <div class="back p-4">
+            <div class="margin">
+              <div class="text-center ">
+                <h5 class="text-white">Blue Spruce Realtors | Full Time</h5>
+                <h1 class="mt-4 text-white">
+                  Customer Service <span style="color: #2eca6a;">Representative Remote</span>
+                </h1>
+                <h5 class="mt-3 text-white">
+                  Posted on 09/27/2022
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="mt-4">
+                  <h5>
+                    <b>Job Description</b>
+                    <br />
+                  </h5>
+                  <p>
+                    <br />
+        
+                    We are seeking a Customer Service Representative to
+                    join our growing team. In this role, you will work
+                    from home, field calls, emails, and chat requests
+                    from customers who have questions, comments, or
+                    concerns about our products and services. All of our
+                    Customer Service Representatives are trained to
+                    understand the full menu of our offerings so that
+                    they can provide our customers with excellent
+                    service. We prefer candidates who have some
+                    background in customer service or sales, and we are
+                    willing to train the new candidates.
+        
+                    <br /><br />
+                    <b
+                      >Customer Service Representative Duties and
+                      Responsibilities:</b
+                    ><br />
+                  </p>
+        
+                  <ul class="">
+                    <li>
+                      Communicate with customers through various
+                      channels (e.g. email, phone and social media)
+                    </li>
+                    <li>
+                      Responsible for maintaining a high level of
+                      professionalism with customers and working to
+                      establish a positive rapport with every customer
+                      interaction
+                    </li>
+                    <li>
+                      Take initiative to learn about our products and
+                      company to answer questions confidently
+                    </li>
+                    <li>
+                      Respond promptly to customer inquiries;
+                      acknowledge and resolve complaints
+                    </li>
+                    <li>
+                      Provide information to customers about order
+                      status and product queries
+                    </li>
+                    <li>
+                      Consistently update customer information in the
+                      customer database
+                    </li>
+                    <li>
+                      Work closely with colleagues to communicate and
+                      coordinate when necessary
+                    </li>
+                    <li>
+                      Processing all customer return merchandise
+                      authorization (RMA's)
+                    </li>
+                    <li>
+                      Process special order and complete various
+                      business forms and applications upon request
+                    </li>
+                    <li>
+                      Provide feedback on the efficiency of the customer
+                      service process and be willing to improve policies
+                      and procedures within your department
+                    </li>
+                  </ul>
+                  <br />
+                  <b>Requirements:</b>
+                  <br />
+                  <ul>
+                    <li>High school diploma/GED required</li>
+                    <li>
+                      Customer service experience is preferred but not
+                      required
+                    </li>
+                    <li>Google suite and Microsoft Office</li>
+                    <li>
+                      Ability to remain professional and courteous with
+                      customers at all times
+                    </li>
+                    <li>
+                      Excellent verbal and written communication skills
+                    </li>
+                    <li>Proactive and takes initiative</li>
+                  </ul>
+                  <br />
+                  <b>Why this one?</b>
+                  <br />
+                  <ul>
+                    <li>Be a key player in a growing organization.</li>
+                    <li>
+                      Gain skills overseeing accounting for a
+                      multi-company entity.
+                    </li>
+                    <li>
+                      Opportunity for broader responsibilities for the
+                      right person.
+                    </li>
+                  </ul>
+                  <br />
+                  <b>Benefits</b>
+                  <br />
+                  <ul>
+                    <li>401(k)</li>
+                    <li>401(k) matching</li>
+                    <li>Health Insurance</li>
+                    <li>Paid time off – vacation and sick leave</li>
+                    <li>
+                      Competitive salary, commensurate with experience
+                      -Exempt position
+                    </li>
+                  </ul>
+        
+                  <a href="#apply" class="btn transit mb-4 text-white">
+                    I'm Interested
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="mt-4">
+                  <h5>
+                    <b>Job Information</b>
+                  </h5>
+                  <!-- <div class="mt-4">
+                            <h6>Industry</h6>
+                            <p><b>Automotive</b></p>
+                        </div> -->
+                  <div class="mt-4">
+                    <h6>Work Experience</h6>
+                    <p><b>0 - 1 year</b></p>
+                  </div>
+                  <div class="mt-4">
+                    <h6>Salary</h6>
+                    <p><b>$23 - $48 an hour </b></p>
+                  </div>
+                </div>
+        
+                <div
+                  id="apply"
+                  class="card mb-2"
+                  style="background-color: #ffffff !important"
+                >
+                  <div class="row p-3">
+                    <div class="col-md-9">
+                      <b>
+                        <p>Apply for this job</p>
+                      </b>
+                      <p>
+                        <small
+                          >We’ll share your profile. The job poster<br />
+                          may use it for jobs with other companies.<br />
+                          Learn More</small
+                        >
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <p><span style="color: red">*</span> Required</p>
+                    </div>
+                    <div class="col-md-12">
+                      <hr />
+                    </div>
+        
+                    <div class="col-md-12">
+                      <form
+                        id="contactForm"
+                        data-sb-form-api-token="a4ae811c-79b1-4b61-bc3b-6bc80714ed11"
+                      >
+                        <label
+                          >First Name<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="name"
+                          type="text"
+                          placeholder="Enter your first name"
+                        />
+                        <label
+                          >Last Name
+                          <span style="color: red">*</span></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="last name"
+                          type="text"
+                          placeholder="Enter your last name"
+                        />
+                        <label
+                          >Email<span style="color: red">*</span></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="email"
+                          type="email"
+                          placeholder="Enter your email"
+                        />
+                        <label
+                          >Phone Number<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="number"
+                          type="number"
+                          placeholder="Enter your phone number"
+                        />
+                        <label
+                          >Date of Birth<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="date of birth"
+                          type="text"
+                          placeholder="Enter your date of birth"
+                        />
+                        <label
+                          >Gender<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="gender"
+                          type="text"
+                          placeholder="e.g Male / Female"
+                        />
+                        <label
+                          >Class of Degree<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="degree"
+                          type="text"
+                          placeholder="Enter your degree"
+                        />
+                        <label
+                          >Address<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="address"
+                          type="text"
+                          placeholder="e.g 20 Cooper Square New York"
+                        />
+                        <label
+                          >City<span style="color: red">*</span></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="city"
+                          type="text"
+                          placeholder="Enter your city e.g New York"
+                        />
+                        <label
+                          >State<span style="color: red">*</span></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="state"
+                          type="text"
+                          placeholder="Enter your state"
+                        />
+                        <label
+                          >Zip Code<span style="color: red"
+                            >*</span
+                          ></label
+                        >
+                        <input
+                          class="shadow p-3 mb-3 bg-white rounded"
+                          style="
+                            width: 100%;
+                            border: none;
+                            height: 1rem !important;
+                          "
+                          id="zip code"
+                          type="number"
+                          placeholder="Enter Zip code"
+                        />
+        
+                        <div class="d-none" id="submitSuccessMessage">
+                          <div class="alert alert-success">
+                            <strong>Success!</strong> Thank you for
+                            applying, we'll get back to you soon.
+                          </div>
+                        </div>
+                        <div class="d-none" id="submitErrorMessage">
+                          <div
+                            class="alert alert-danger d-flex justify-content-between"
+                          >
+                            <div>
+                              <strong>Failed!</strong> Try Again.
+                            </div>
+                            <div>
+                              <button
+                                type="button"
+                                class="close"
+                                data-dismiss="alert"
+                                aria-label="Close"
+                              >
+                                <span
+                                  style="color: red"
+                                  aria-hidden="true"
+                                  >&times;</span
+                                >
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+        
+                        <button
+                          class="disabled transit btn btn-primary btn-block mt-4"
+                          id="submitButton"
+                          type="submit"
+                        >
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <section class="section-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">BlueSpruce</h3>
+              </div>
+              <div class="w-body-a">
+                <p class="w-text-a color-text-a"></p>
+              </div>
+              <div class="w-footer-a">
+                <ul class="list-unstyled">
+                  <li class="color-a">
+                    <span class="color-text-a">Phone .</span>
+                    936-227-5625
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">The Company</h3>
+              </div>
+              <div class="w-body-a">
+                <div class="w-body-a">
+                  <ul class="list-unstyled">
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Site Map</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Agent Admin</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="career.html">Careers</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Affiliate</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">International sites</h3>
+              </div>
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Venezuela</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#">China</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Hong Kong</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Argentina</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Singapore</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Philippines</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="nav-footer">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="property-grid.html">Property</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="socials-a">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-footer">
+              <p class="copyright color-text-a">
+                &copy; Copyright
+                <span class="color-a">BlueSpruce</span> All Rights Reserved.
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BlueSpruce
+        -->
+              Designed by <a href="#">Oracletech</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- forms -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"
+></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
